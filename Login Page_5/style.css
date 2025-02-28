@@ -1,0 +1,31 @@
+html, body {
+    height: 100%;
+    margin: 0; /* Reset default margin */
+}
+
+body {
+    background-color: #fcaeae;
+}
+
+form {
+    width: 28%;
+    margin: auto;
+    padding-top: 150px;
+}
+
+.bg {
+    background-color: #ffeadd;
+}
+
+.btn-color {
+    background-color: #ff6666;
+    border: none;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    form {
+        width: 80%; /* Adjust form width for smaller screens */
+        padding-top: 50px; /* Reduce padding for smaller screens */
+    }
+}
